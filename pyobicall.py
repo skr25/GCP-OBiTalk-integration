@@ -50,7 +50,7 @@ while(1):
 				logger.info("Phone is ringing but phone is %s and caller name is %s",phone,contactName)
 			voiceFlag = 1
 			logger.info("Voice Flag is set to 1.")
-			ttstext = "Hello Rai family, you have a call on your home phone from caller name  " + contactName + " and  number is " + phone + "."
+			ttstext = "Hello, you have a call on your home phone from caller name  " + contactName + " and  number is " + phone + "."
 			mytts.Notify('114','50',ttstext)
 			logger.info("TTS is provided to speaker to notify.")
 
